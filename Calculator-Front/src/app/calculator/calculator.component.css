@@ -1,0 +1,110 @@
+*{
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+.symbol{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 5em;
+}
+
+#calculator{
+    background-color: rgb(34, 34, 34);
+    justify-content: space-around;
+    width:22em;
+    height: 30em;
+}
+
+.mainScreen{
+    width:20em;
+    height:5em;
+    align-self: center;
+    background-color: #fbfbfb;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#result,#feedback{
+    margin:0.5em;
+}
+
+#result{
+    text-align: right;
+}
+
+.buttonTable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttonRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    width:5em;
+    height: 3.5em;
+}
+
+.number{
+    background-color: #ffffff;
+}
+
+.number:hover{
+    background-color: #eaeaea;
+}
+
+.number:active{
+    background-color: #d1d1d1;
+}
+
+.operation{
+    background-color: #414040;  
+    color:white; 
+}
+
+.operation:hover{
+    background-color: #565656;   
+}
+
+.operation:active{
+    background-color: #202020;   
+}
+
+.control{
+    background-color: #f9a81c;
+}
+
+.control:hover{
+    background-color: #f9c160;
+}
+
+.control:active{
+    background-color: #e69202;
+}
+
+
+#equal{
+    background-color: rgb(1, 121, 219);
+    color:#ffffff;
+}
+
+#equal:hover{
+    background-color: rgb(1, 112, 203);
+}
+
+#equal:active{
+    background-color: rgb(1, 98, 177);
+}
